@@ -1,4 +1,4 @@
-# advent-of-code
+# HeavenlyBorks's Advent of Code
 
 Started in 2022.
 
