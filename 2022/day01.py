@@ -11,6 +11,6 @@ if __name__ == "__main__":
         # don't forget the last elf :(
         elves.append(sum(current))
 
-        for _ in range(3):
-            print(max(elves))
-            elves.remove(max(elves))
+    for _ in range(3):
+        print(max(elves))
+        elves.remove(max(elves))
