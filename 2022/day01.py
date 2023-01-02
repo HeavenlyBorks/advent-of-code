@@ -1,5 +1,8 @@
+import sys
+
+
 if __name__ == "__main__":
-    with open("input1") as f:
+    with open(sys.argv[1]) as f:
         elves = []
         current = []
         for cal in f:

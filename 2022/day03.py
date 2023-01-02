@@ -1,3 +1,6 @@
+import sys
+
+
 def to_priority(l):
     if ord(l) >= 97:
         return ord(l) - 96
@@ -6,7 +9,7 @@ def to_priority(l):
 
 
 if __name__ == "__main__":
-    with open("input3") as f:
+    with open(sys.argv[1]) as f:
         rucksacks = []
         for rucksack in f:
             rucksack = rucksack.strip()

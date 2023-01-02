@@ -1,3 +1,6 @@
+import sys
+
+
 P1ROCK = "A"
 P1PAPER = "B"
 P1SCISSORS = "C"
@@ -67,7 +70,7 @@ def check_win(p2):
 
 
 if __name__ == "__main__":
-    with open("input2") as f:
+    with open(sys.argv[1]) as f:
         games = []
         for game in f:
             games.append(game.split())
