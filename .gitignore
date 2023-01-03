@@ -1,5 +1,6 @@
 # inputs
-input*
+in_ cd /home/borks/programming/python/advent_of_code/2022 ; /usr/bin/env /bin/python3 /home/borks/.vscode/extensions/ms-python.python-2022.20.1/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 42283 -- /home/borks/programming/python/advent_of_code/2022/day03.py in_day03 
+*
 
 # vs-code files
 .vscode/
